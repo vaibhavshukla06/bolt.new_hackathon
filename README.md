@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 The World's Largest Hackathon Website
 
-## Getting Started
+![Hackathon Website Preview](/public/images/preview.svg)
 
-First, run the development server:
+A responsive, interactive single-page website for a global hackathon event, built with Next.js and Tailwind CSS.
 
+## 🌟 Features
+
+- **Modern, Responsive Design**: Optimized for all device sizes
+- **Single-Page Application**: Smooth scrolling between sections
+- **Interactive Components**: Expandable sections with "Show More" functionality
+- **Dark Mode Support**: Automatic theme detection and styling
+- **Accessibility**: ARIA-compliant, keyboard navigable interface
+
+## 🧰 Tech Stack
+
+- **Next.js 14**: App Router, Server Components, Client Components
+- **TypeScript**: Type-safe code
+- **Tailwind CSS**: Utility-first styling
+- **Framer Motion**: Animations and transitions
+- **React Icons**: Comprehensive icon library
+
+## 📋 Sections
+
+- **Hero Section**: Eye-catching introduction with call-to-action
+- **About**: Information about the hackathon's mission and process
+- **Prizes**: Showcase of main prizes and special categories
+- **Sponsors**: Information about sponsorship tiers and benefits
+- **Judges**: Profiles of the judging panel and judging criteria
+- **Rules**: Event rules and guidelines with collapsible sections
+- **FAQ**: Searchable frequently asked questions
+- **Contact**: Contact form and newsletter signup
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 16.8 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/hackathon-website.git
+cd hackathon-website
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+hackathon-website/
+├── app/                     # App Router directory
+│   ├── page.tsx             # Main homepage (single-page app)
+│   ├── layout.tsx           # Root layout with metadata
+│   └── globals.css          # Global styles
+├── components/              # React components
+│   └── sections/            # Page sections
+│       ├── HeroSection.tsx
+│       ├── AboutSection.tsx
+│       ├── PrizesSection.tsx
+│       ├── SponsorsSection.tsx
+│       ├── JudgesSection.tsx
+│       ├── RulesSection.tsx
+│       ├── FaqSection.tsx
+│       └── ContactSection.tsx
+├── public/                  # Static files
+│   └── images/              # Images for the website
+└── package.json             # Project dependencies
+```
 
-## Learn More
+## 🌐 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The website can be easily deployed on [Vercel](https://vercel.com/) or any other Next.js-compatible hosting platform.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+# or
+yarn build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License - feel free to use this code for your next hackathon or event!
